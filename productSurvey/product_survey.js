@@ -11,6 +11,7 @@ function submitFeedback(){
     alert('Thank you for your valuable feedback')
 
     const submitButton=document.getElementById('submitBtn');
+    const userExperience = document.getElementById('userExperince').value;
 
     document.getElementById('userName').innerHTML = username;
     document.getElementById('userAge').innerHTML = age;
@@ -20,6 +21,7 @@ function submitFeedback(){
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
     document.getElementById('userInfo').style.display = 'block';
+    document.getElementById('userExperince').innerHTML = userExperience;
 
 }
 
